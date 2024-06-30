@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "learning-deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["danilichev <v.danilichev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.2.2"
+matplotlib = "^3.9.0"
+torchvision = "^0.17"
+numpy = "^1.26"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
