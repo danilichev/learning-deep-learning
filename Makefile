@@ -1,4 +1,4 @@
-.PHONY: init
+.PHONY: setup
 init:
 	pyenv local
 	python -m venv .venv
